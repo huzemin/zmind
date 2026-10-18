@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 40" width="504" height="160" role="img" aria-label="ZMind">
+  <defs>
+    <linearGradient id="lkZ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF2D9"/>
+      <stop offset=".5" stop-color="#E6C79A"/>
+      <stop offset="1" stop-color="#BE8C48"/>
+    </linearGradient>
+    <linearGradient id="lkBg" x1="0" y1="0" x2=".3" y2="1">
+      <stop offset="0" stop-color="#22232A"/>
+      <stop offset="1" stop-color="#08090C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="126" height="40" fill="#0B0C0F"/>
+
+  <g transform="translate(4 4)">
+    <rect x="0.5" y="0.5" width="31" height="31" rx="9" fill="url(#lkBg)" stroke="rgba(255,255,255,0.14)"/>
+    <path d="M2.4 2.5h27.2" stroke="rgba(255,255,255,0.08)" stroke-width="1" stroke-linecap="round"/>
+    <path d="M9.5 10H22.3C18.5 12.2 13.3 19.4 9.5 21.6H22.3"
+          fill="none" stroke="url(#lkZ)" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="22.3" cy="21.6" r="2.45" fill="#FFF3DC"/>
+  </g>
+
+  <text x="46" y="27.2" fill="#F5F2EC" font-size="15.5" font-weight="650" letter-spacing="4.2"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'PingFang SC', sans-serif">ZMIND</text>
+</svg>
