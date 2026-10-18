@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="obsidian" data-page-node-id="Ci16jrk9cS1cJfqO9JacNW">
+<head data-page-node-id="lSKmSBYCpF7nACIFt8sKZP">
+<meta charset="utf-8" data-page-node-id="TKwgbkuL0lD5sIq0ZcOn6A">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" data-page-node-id="JTQOfYQPfhGCmBDySa7mok">
+<title>ZMind · 思维导图</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FFF2D9'/%3E%3Cstop offset='.5' stop-color='%23E6C79A'/%3E%3Cstop offset='1' stop-color='%23BE8C48'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='%230B0C0F'/%3E%3Cpath d='M9.5 10H22.3C18.5 12.2 13.3 19.4 9.5 21.6H22.3' fill='none' stroke='url(%23g)' stroke-width='3.1' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='22.3' cy='21.6' r='2.8' fill='%23FFF3DC'/%3E%3C/svg%3E" data-page-node-id="HWTQAK2yOyF0ATjJOZzvYZ">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" data-page-node-id="VkdLpdr9BHmlSYFASBRsNB">
+<link rel="stylesheet" href="styles.css" data-page-node-id="rzX21zjPfkfeIA2ivgjjFl">
+</head>
+<body data-page-node-id="OLfEKp58ictbpcZhpdKd2G">
+
+<!-- 环境光 / 颗粒 -->
+<div class="ambient" aria-hidden="true" data-page-node-id="fSaur0yJH9CQk9kamq3xHb">
+  <span class="blob b1" data-page-node-id="WDL9F6CmrdOq4pCCgB9lBq"></span>
+  <span class="blob b2" data-page-node-id="oxK8GkMgyoHPKhOIeP53vn"></span>
+  <span class="blob b3" data-page-node-id="1uAKdbaDkF4oUv1oqFEzE0"></span>
+</div>
+<div class="grain" aria-hidden="true" data-page-node-id="8uvgwncYlBRkQHpR30VvWX"></div>
+
+<!-- 画布 -->
+<main id="canvas" class="canvas" data-page-node-id="MoKzOBeLHllvae8WPjGXZS">
+  <div class="grid" id="grid" data-page-node-id="WtSqt1nMk5WAqdwWQTSbJE"></div>
+  <div class="world" id="world" data-page-node-id="ltAlA4AlZqj37ewuCbDJCd">
+    <svg class="edges" id="edges" xmlns="http://www.w3.org/2000/svg" data-page-node-id="n4n0wBQrCsps7IvmUwU5sL"></svg>
+  </div>
+  <div class="canvas-vignette" aria-hidden="true" data-page-node-id="sJDYESZXJXbh60SYc6bWPP"></div>
+</main>
+
+<!-- 顶栏 -->
+<header class="topbar" data-page-node-id="CRNHHKTNz620DWFbCBjrEE">
+  <div class="glass brand" data-page-node-id="JdnWBYhII66XouH8ar846K">
+    <svg class="logo" viewBox="0 0 32 32" aria-label="ZMind" data-page-node-id="xpqYT8RpG0qRjfAU4MDRjT">
+      <defs data-page-node-id="o52LpDLSIbCC8bfIGMwDXO">
+        <linearGradient id="lgz" x1="0" y1="0" x2="1" y2="1" data-page-node-id="DaCCygeGf1EskrmATjqzBP">
+          <stop offset="0" stop-color="#FFF2D9" data-page-node-id="NwHLEOJ1eAE8zokRhYHtWE"/><stop offset=".5" stop-color="#E6C79A" data-page-node-id="Jpt93hBwXk90DSM1XmCZyw"/><stop offset="1" stop-color="#BE8C48" data-page-node-id="nl7fh4AS9GQfdBFxNcJKhp"/>
+        </linearGradient>
+        <linearGradient id="lgb" x1="0" y1="0" x2=".3" y2="1" data-page-node-id="luk80w4OwxXYLTo6IZBO0X">
+          <stop offset="0" stop-color="#22232A" data-page-node-id="5M4saeB3OzbgCHiVMam3br"/><stop offset="1" stop-color="#08090C" data-page-node-id="IvjGeHed4aQlUN7GgIZljR"/>
+        </linearGradient>
+      </defs>
+      <rect x=".5" y=".5" width="31" height="31" rx="9" fill="url(#lgb)" stroke="rgba(255,255,255,.14)" data-page-node-id="M0jfqDR6zAWD5QzsSY29GZ"/>
+      <path d="M2.4 2.5h27.2" stroke="rgba(255,255,255,.08)" stroke-width="1" data-page-node-id="bYjo1mOSm0dStqzrpaN242"/>
+      <path d="M9.5 10H22.3C18.5 12.2 13.3 19.4 9.5 21.6H22.3" fill="none"
+            stroke="url(#lgz)" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" data-page-node-id="J8qhxHJsS9vHnjmCK6jm8c"/>
+      <circle class="logo-node" cx="22.3" cy="21.6" r="2.45" fill="#FFF3DC" data-page-node-id="QMcEvRasb4wnIYUzgfeWGG"/>
+    </svg>
+    <span class="brand-name" data-page-node-id="vBpXDkTjXgELbAirY5eTmJ">ZMIND</span>
+  </div>
+
+  <div class="glass doc" data-page-node-id="vnpNAsg21gOtnS7Ptwd6Fi">
+    <span id="title" class="title" contenteditable="true" spellcheck="false" data-page-node-id="OL7CAZMhfDIoEvd3uACao6">ZMind · 产品发布</span>
+    <span class="divider" data-page-node-id="ifiC4j0L0V7Pi8vdFkfu9U"></span>
+    <div class="seg" id="layoutSeg" role="group" aria-label="布局" data-page-node-id="I1mhnYb9W7CHp2TbBEy1xR">
+      <button data-layout="right" title="逻辑图（向右）" data-page-node-id="QDJ0bjOQAxFXJjP7jnOG9x">
+        <i class="ri-node-tree" aria-hidden="true"></i>
+      </button>
+      <button data-layout="balanced" title="平衡图（左右）" data-page-node-id="UZdcgjxuw4UCEXXXa1jUxI">
+        <i class="ri-mind-map" aria-hidden="true"></i>
+      </button>
+      <button data-layout="down" title="架构图（向下）" data-page-node-id="68zVOGgJOE8EnBOFUGKoY9">
+        <i class="ri-organization-chart" aria-hidden="true"></i>
+      </button>
+    </div>
+    <span class="divider" data-page-node-id="lwQ25eY5Niig7AkS9ue0zg"></span>
+    <div class="swatches" id="themeSeg" role="group" aria-label="主题" data-page-node-id="4V2MQ0Tp4hDfEcPnIj52pS"></div>
+  </div>
+
+  <div class="glass actions" data-page-node-id="QnpydpaZxcCitBbl4r3PZ3">
+    <button id="newBtn" class="icon" title="新建 (⌘/Ctrl + N)" data-page-node-id="DigrTaGKtgoSHQ9GO0EXeX">
+      <i class="ri-file-add-line" aria-hidden="true"></i>
+      <span data-page-node-id="GMx3pQZGRMSDtZXTfPwDOo">新建</span>
+    </button>
+    <button id="playBtn" class="ghost" title="演示 (P)" data-page-node-id="Dd9Cj5DsaLmqyR6A4J3xIJ">
+      <i class="ri-play-fill" aria-hidden="true"></i>
+      <span data-page-node-id="06AzUOu6DtJiJi4UuFB3wh">演示</span>
+    </button>
+    <button id="orderBtn" class="icon" title="演示顺序" data-page-node-id="YWhECId8AoHar7XoLCq6kp">
+      <i class="ri-play-list-line" aria-hidden="true"></i>
+      <span data-page-node-id="s5Tq8mVd2xN7kR1wY4pL9c">演示顺序</span>
+    </button>
+    <button id="outlineBtn" class="ghost" title="大纲 (⌘/Ctrl + B)" data-page-node-id="09drcyHJTXSsCCovcc2GVk">
+      <i class="ri-list-check" aria-hidden="true"></i>
+      <span data-page-node-id="COSaK9A5Ly2FNjEaI3aaXV">大纲</span>
+    </button>
+    <button id="helpBtn" class="icon" title="快捷键 (?)" data-page-node-id="YelbIELzTbMUj5GhqCewMs">
+      <i class="ri-question-line" aria-hidden="true"></i>
+    </button>
+    <button id="moreBtn" class="icon only-mobile" title="更多" data-page-node-id="Kd0CD0CUAK9UMSjUGLgHla">
+      <i class="ri-more-fill" aria-hidden="true"></i>
+    </button>
+    <button id="exportBtn" class="primary" data-page-node-id="TLCJVaeBv6DD0nXfIBuubl">
+      <i class="ri-download-2-line" aria-hidden="true"></i>
+      <span data-page-node-id="2mA5ikunEvRhfxzBA22NvY">导出</span>
+    </button>
+  </div>
+</header>
+
+<!-- 大纲面板 -->
+<aside id="outline" class="outline glass" data-page-node-id="m4fEyNxXjNjSBUq8LdFYR9">
+  <div class="outline-head" data-page-node-id="kQ0pblU3ZWGKjHsWzuFOvI">
+    <span data-page-node-id="co5ZbIh259MXQGPgr0opJR">大纲</span>
+    <div class="outline-tools" data-page-node-id="2vNaPumpH9ZwaIu3FEsIQn">
+      <button id="expandAll" class="mini" title="展开全部" data-page-node-id="XS7UTjRjX2yRuD5NozpuzI">展开</button>
+      <button id="collapseAll" class="mini" title="折叠到二级" data-page-node-id="bZts6hPdrRyYOphqlhC8EJ">收起</button>
+      <button id="outlineClose" class="panel-x" title="关闭 (Esc)" aria-label="关闭大纲" data-page-node-id="DBQAYzH9HsWhLW5C7RwT0C">
+        <i class="ri-close-line" data-page-node-id="97kt49CUCK62jfD0OqeG0K"></i>
+      </button>
+    </div>
+  </div>
+  <div id="outlineList" class="outline-list" data-page-node-id="wJdOjn4fgA73E72gtglYBh"></div>
+  <div class="outline-foot" data-page-node-id="4zBI3jCvGMYaiVLqhXd9re"><span id="nodeCount" data-page-node-id="Ael90MFcv4ekC0fjbvU8jv">0</span> 个主题</div>
+</aside>
+
+<!-- 节点浮动工具条 -->
+<div id="toolbar" class="toolbar glass" role="toolbar" data-page-node-id="RXUqWNmxnA4jkRAyj3VjUQ">
+  <button data-act="child" title="添加子主题 (Tab)" data-page-node-id="BJ9hCpWLPuDqB9FQ7TS9ZB"><b data-page-node-id="cGrzCE32KaSzIwi1Kj5auV">＋</b> 子主题</button>
+  <button data-act="sibling" title="添加同级主题 (Enter)" data-page-node-id="1h119LqXUenUIV3YjmQDov">同级</button>
+  <button data-act="collapse" title="折叠 / 展开子主题" data-page-node-id="yTf6biwiPKUrSxKPqNapVA">折叠</button>
+  <button data-act="color" title="为主题设置分支颜色" data-page-node-id="BAjMYmNJgsHBosw7AtxI3f">颜色</button>
+  <button data-act="delete" class="danger" title="删除该主题 (Delete)" data-page-node-id="FYa3TyjRr7UO84JMiNRdt7">删除</button>
+</div>
+
+<!-- 颜色面板 -->
+<div id="palette" class="palette glass" data-page-node-id="2q9DI1FI2Dgp7WlzDJY9s4">
+  <div class="palette-grid" id="paletteGrid" data-page-node-id="9u7NXbcqopoxBO0JdYmbR8"></div>
+  <button id="paletteReset" class="palette-reset" data-page-node-id="vqUB65IZF76sp72A1ophxM">恢复继承</button>
+</div>
+
+<!-- 更多菜单（移动端） -->
+<div id="moreMenu" class="menu glass" data-page-node-id="QYFCgA2XH0WZpUGvgB8h3y">
+  <button data-more="export" data-page-node-id="8tgcJAKGGD3FXBaDiIYYrr"><i class="ri-download-2-line" data-page-node-id="s0cSDM2ZiFlRsIN3aEdjUd"></i><span class="mi" data-page-node-id="Ql3KKPqw6UvjaPTbNxHDrx">导出 / 保存</span><span class="mk" data-page-node-id="A2TWZzr0u6RGdilUFI1CHL">⌘S</span></button>
+  <div class="menu-sep" data-more-sep="io" data-page-node-id="NWYhYQFOtUYC76Wm8DZHPV"></div>
+  <button data-more="outline" data-page-node-id="gf04LeMKJp0dFFr5AOn8dp"><i class="ri-list-check" data-page-node-id="u5lnKYbZDdxA7pUSV56vql"></i><span class="mi" data-page-node-id="ZAQvSKy8qNm5SQ19q5lgsK">大纲面板</span><span class="mk" data-page-node-id="2H4sjnZbw35NWdW5PNjUO7">B</span></button>
+  <button data-more="order" data-page-node-id="Jbxe9JA2Aqm0qgaiYEzDBk"><i class="ri-play-list-line" data-page-node-id="aiuRZUWruN96SgOItrqVjf"></i><span class="mi" data-page-node-id="LpQDpPix5YJAlYAH9UIgIF">演示顺序</span><span class="mk" data-page-node-id="S2JNFx27Ly7jPJYnuSMkIg"></span></button>
+  <button data-more="minimap" data-page-node-id="vGcBXFEooNMZfGmcVlJWKM"><i class="ri-picture-in-picture-line" data-page-node-id="EIAvF8lCi26DjMpsEdAlrk"></i><span class="mi" data-page-node-id="peeq8HkoS50tLZ5GuYzSmD">缩略图</span><span class="mk" data-page-node-id="FtypQAu8aj6im3Uxq1Ym8A">M</span></button>
+  <div class="menu-sep" data-page-node-id="cfDklg8eeFOeQaElruYYcY"></div>
+  <button data-more="fit" data-page-node-id="FKkabKgUfWI7LS1D3symf9"><i class="ri-fullscreen-line" data-page-node-id="n1DTsKeR6bDqPKzHBnNnmW"></i><span class="mi" data-page-node-id="H5FXkOo4rdIyBpH0Y2dvm5">适应画布</span><span class="mk" data-page-node-id="mJNpilcBieWYsSGB1s4XGK">⌘0</span></button>
+  <button data-more="help" data-page-node-id="ccGWWvat6bEt6Bi7WZVz5c"><i class="ri-question-line" data-page-node-id="ywQPjKVyqe4G35A3K9gbGm"></i><span class="mi" data-page-node-id="noj3uLii15Hm1jYaiarcda">快捷键</span><span class="mk" data-page-node-id="nFZcokdNgobp6HiOVBVkyM">?</span></button>
+</div>
+
+<!-- 新建菜单 -->
+<div id="newMenu" class="menu glass" data-page-node-id="JPkhfKXFXwW6tHecs5DGqu">
+  <button data-new="blank" data-page-node-id="3Ic1ZNBFTVcHH8JHvcaTMs"><i class="ri-file-add-line" data-page-node-id="Y0BuHC0UmRPrNSwwCcfnHZ"></i><span class="mi" data-page-node-id="ZfSXOww1sX2BjJyIigz0Bt">空白导图</span><span class="mk" data-page-node-id="cttS8CGYExgtNsTylGxLEV">从中心主题开始</span></button>
+  <button data-new="sample" data-page-node-id="7olIsQRNrF8iHe3DBirRVJ"><i class="ri-lightbulb-line" data-page-node-id="bHr5etYlFGvNjTjEjH8ZMV"></i><span class="mi" data-page-node-id="2TBl2NHUB5OGJqNyEtGggX">示例导图</span><span class="mk" data-page-node-id="GoeeSFYGzbP73IZ6yuxXFT">看看能做什么</span></button>
+  <div class="menu-sep" data-page-node-id="n3WJc1pXa8t6vQ2sR5yL0k"></div>
+  <button data-new="import" data-page-node-id="h7Qp2mNc5vX1sT8rK4wZ9b"><i class="ri-folder-open-line" data-page-node-id="u2Vf6nBq9xL3sK7mR1yT4c"></i><span class="mi" data-page-node-id="p8Kd3wHs6vN1rX5tY2qL7m">导入文件</span><span class="mk" data-page-node-id="v5Bx9cMk2nR7tY1sQ4wZ6p">.zmind / .xmind</span></button>
+</div>
+
+<!-- 演示顺序 -->
+<aside id="seqPanel" class="seq glass" data-page-node-id="UEUT3LcmgaNWzwNgSqlMAl">
+  <div class="seq-head" data-page-node-id="f1YeIC0PnIqBXqOGicLhu9">
+    <span data-page-node-id="u0jaajW0wlvd4xpXq3WJPe">演示顺序</span>
+    <div class="outline-tools" data-page-node-id="s4z3wbxskJx8dquJvWk968">
+      <button id="seqReset" class="mini" title="恢复自动顺序" data-page-node-id="A5p6QcTi0wV1XsHIOl4Sfa">自动</button>
+      <button id="seqClose" class="panel-x" title="关闭 (Esc)" aria-label="关闭演示顺序" data-page-node-id="wsPEiqW2zBZx3IjXVlOQKD">
+        <i class="ri-close-line" data-page-node-id="GoBHXdMH3T9b3Wr7gK9tbW"></i>
+      </button>
+    </div>
+  </div>
+  <p class="seq-tip" data-page-node-id="wsKc9YoA3qVXmD3fuiMNMu">拖动排序 · <b data-page-node-id="Q9k6kAso4oJMW0eXqAhy0m">＋</b> 加入 · <b data-page-node-id="WC0FEhgG8CgBhFOIvuAABu">×</b> 移除。留空则自动按大纲巡游。</p>
+  <div id="seqList" class="seq-list" data-page-node-id="xUdXN4kb3Ym17m1hiVDXgw"></div>
+  <div class="seq-add" data-page-node-id="uV5uEgLfyerWfNhZyhhUlJ">
+    <span class="seq-add-label" data-page-node-id="Iq2rIDRS87pTGYzyUDpoqM">加入主题：</span>
+    <div id="seqPool" class="seq-pool" data-page-node-id="rshYt7dtlQ7DGiWw2aaKDd"></div>
+  </div>
+</aside>
+
+<div id="dropLine" class="drop-line" aria-hidden="true" data-page-node-id="6XnLx7YOwXQF8EN8NGKTCB"></div>
+
+<!-- 演示模式 -->
+<div id="present" class="present" data-page-node-id="4cqP1IWwKqPG6ODimRZECU">
+  <div class="pres-progress" data-page-node-id="Se1CmdvMvGmnan1E2fBNFa"><i id="presProgress" data-page-node-id="nXn9yK2dlUvnY6OAGXKmgM"></i></div>
+  <div class="pres-hint" id="presHint" data-page-node-id="y2jQu9X4dYQYNdlbKyBsnr">← → 切换主题 · Esc 退出</div>
+  <div class="pres-bar glass" data-page-node-id="l8zMzFiXQu2nSCZPEHxE4C">
+    <button id="presPrev" title="上一个 (←)" data-page-node-id="Oq1pfygEBEhwHGpBlO2w31">
+      <i class="ri-arrow-left-s-line" aria-hidden="true"></i>
+    </button>
+    <span id="presCount" class="pres-count" data-page-node-id="PoGc2ujNG3PAPeG4QRav1F">1 / 1</span>
+    <button id="presNext" title="下一个 (→ 或 空格)" data-page-node-id="487O28e9Si41eOPwrCaxdV">
+      <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
+    </button>
+    <span class="pres-sep" data-page-node-id="hxQs6DbqBMyKAR0fGlGkfv"></span>
+    <button id="presExit" class="pres-exit" data-page-node-id="fBEO2FXzPQG3NqZRdW25SH">退出</button>
+  </div>
+</div>
+
+<!-- 导出菜单 -->
+<div id="menu" class="menu glass" data-page-node-id="4xVoeTlkjvxi2wxNGq5cU7">
+  <button data-export="zmind" data-page-node-id="RUrEGMKkoKi9G8pbKjLGDA"><i class="ri-save-3-line" data-page-node-id="VrBFltX9sQsXELjQBcjbsH"></i><span class="mi" data-page-node-id="etoFJwbTLo3gpk4DrGzEuV">保存 .zmind</span><span class="mk" data-page-node-id="FvXAI8n4vAG4DCGxsYreKA">全部信息 · ⌘S</span></button>
+  <div class="menu-sep" data-page-node-id="zXTkNGQ2PoENS4f20F3ZT7"></div>
+  <button data-export="xmind" data-page-node-id="nssxbLPNYO5mjFJxCVRPQ8"><i class="ri-node-tree" data-page-node-id="S0Fsjv9oLMqu1JqxQaHxU9"></i><span class="mi" data-page-node-id="jckYhWUE9YfVYOhSSxXeBy">导出 .xmind</span><span class="mk" data-page-node-id="ws9ff7EnFK6ccatpVCiMj9">XMind 8 / 2020+</span></button>
+  <button data-export="png" data-page-node-id="qpXZhMYy3VGemvkew5o15k"><i class="ri-image-line" data-page-node-id="5XhFNpTLKjMmLR6FZF372s"></i><span class="mi" data-page-node-id="7Ki4jKXf11pnMHUudMC5ar">导出 PNG</span><span class="mk" data-page-node-id="3JToH1VZ0rwi5mQ1GwkG5O">高清 2×</span></button>
+  <button data-export="svg" data-page-node-id="6RAYwwhoS6pw4MuD7UzcIh"><i class="ri-shape-2-line" data-page-node-id="clxx3xfpIiZEbDlPFZL3Fr"></i><span class="mi" data-page-node-id="ZohtBSvRCLUxwNMmFEnCut">导出 SVG</span><span class="mk" data-page-node-id="nQkskzBeM7qn9aWhA8WUnl">矢量</span></button>
+</div>
+
+<!-- 缩放 -->
+<div class="zoom glass" data-page-node-id="fD9mSmS4Ab72MSasNc4Ktu">
+  <button id="zoomOut" title="缩小" data-page-node-id="BHmjUm54I7na0D2RnPvNZE">
+    <i class="ri-subtract-line" aria-hidden="true"></i>
+  </button>
+  <button id="zoomLabel" class="zoom-label" title="实际大小 100%" data-page-node-id="bnlVnUuNBDBEUIICBzc0UG">100%</button>
+  <button id="zoomIn" title="放大" data-page-node-id="wTQr11SR5a2fKr1fs2AYZH">
+    <i class="ri-add-line" aria-hidden="true"></i>
+  </button>
+  <span class="zoom-sep" data-page-node-id="bCBRkNKsKnVGbobGhOVRI4"></span>
+  <button id="fitBtn" title="适应画布 (⌘/Ctrl + 0)" data-page-node-id="3ljUcEBI3RaEBXvG1mDyuO">
+    <i class="ri-fullscreen-line" aria-hidden="true"></i>
+  </button>
+  <button id="mmBtn" class="on" title="缩略图 (M)" data-page-node-id="YOqm7SG1WJwdSm9Gm9NQdE">
+    <i class="ri-picture-in-picture-line" aria-hidden="true"></i>
+  </button>
+</div>
+
+<!-- 缩略图 -->
+<div id="minimap" class="minimap glass" title="拖拽可移动视图 · 滚轮缩放" data-page-node-id="1lcuytzc4tOGoFxhCM43rl">
+  <canvas id="mmCanvas" data-page-node-id="iTPnbV5ihrE9ihsTDPkjqq"></canvas>
+</div>
+
+<!-- 底部提示 -->
+<div class="hints" data-page-node-id="GDjwFsCWSsnouZt1NkMMjN">
+  <span class="chip" data-page-node-id="6U2cOCPcV54LcqUd18c5fZ"><kbd data-page-node-id="f6GvU5wxWSCVsjQjNEpbzV">Tab</kbd> 子主题</span>
+  <span class="chip" data-page-node-id="5Jyq47AV4zOoQqSHkEm8um"><kbd data-page-node-id="8RYcho1RYM2J9JZY0AqNjN">Enter</kbd> 同级</span>
+  <span class="chip" data-page-node-id="yQ7rqUCkM6u6tmWuqzI2JS"><kbd data-page-node-id="xSBryLlKBCxovMGTyhiUj6">双击</kbd> 编辑</span>
+  <span class="chip" data-page-node-id="gemNcmg5Y7FmOg9rucRHuF">拖动主题可改变层级</span>
+</div>
+
+<div id="toast" class="toast" data-page-node-id="Rwb070TZS24dymexXfLcNI"></div>
+
+<!-- 帮助 -->
+<div id="help" class="overlay" data-page-node-id="lmXw92upFXOwbbNQWJYGLJ">
+  <div class="help-card glass" data-page-node-id="hP5S7SjgOBaMK8KGKU2va5">
+    <div class="help-head" data-page-node-id="efNFYRpZKZ5a1k9y2imCPK">
+      <h2 data-page-node-id="EFhOsNq75rDBpFN7LsBwoZ">快捷键</h2>
+      <button id="helpClose" class="icon" data-page-node-id="16tkuJzvvopAlitmXmCnan">
+        <i class="ri-close-line" aria-hidden="true"></i>
+      </button>
+    </div>
+    <div class="help-grid" data-page-node-id="gYKixMpWWl6ONMXXGA162H">
+      <div data-page-node-id="yw7DSJn6IqA7xe078h6a2l"><kbd data-page-node-id="zUgRjuvnECyHHuSPYDzvtQ">Tab</kbd><span data-page-node-id="tTEHUyfBuyyeATkFT5xpBE">添加子主题</span></div>
+      <div data-page-node-id="fOD56QO3CMHPKg8PaKLm0v"><kbd data-page-node-id="c8KGDlAANQonC6S7hIDuQj">Enter</kbd><span data-page-node-id="GjpPc7C1sZXmqMOUgKMtX9">添加同级主题</span></div>
+      <div data-page-node-id="qYa8HesoP9QSVDJ8K66je8"><kbd data-page-node-id="5b9IqpiSOM7lj03WCbNNdg">双击 / F2</kbd><span data-page-node-id="2Nm8VHMq5CXZ6X0ORVFi2k">编辑文字</span></div>
+      <div data-page-node-id="isSPvitUegoIa2iEWCSuM7"><kbd data-page-node-id="Xjz2cWkR8bESNqGhXQXyM1">Delete</kbd><span data-page-node-id="UY1f8RnIPrnOfqpn4QaZgp">删除主题</span></div>
+      <div data-page-node-id="jkfZkqcKPJjOpVoDVFsbBt"><kbd data-page-node-id="cHikOGKVNrQGJDIWCz9aYC">方向键</kbd><span data-page-node-id="EoWqWSKhj8NW601mtVMbmd">在主题间移动</span></div>
+      <div data-page-node-id="nYz8UJ36eHNSoCklldM9s5"><kbd data-page-node-id="0bJhNFqZG0PDsJQrY1JOvK">空格 + 拖拽</kbd><span data-page-node-id="tC3kjkbcMINNEF8tYQHyNd">平移画布</span></div>
+      <div data-page-node-id="qOzeslP0uDoXYZ5PlbasPj"><kbd data-page-node-id="sR4lloZGG7iCncf2fQzqkA">滚轮</kbd><span data-page-node-id="v3wUoOA25FMk0FYJIfvET6">平移</span></div>
+      <div data-page-node-id="krbLVLpIyXHJPmw9rvncM4"><kbd data-page-node-id="gHpQbGm1KYDMzJOGc6EkCZ">⌘/Ctrl + 滚轮</kbd><span data-page-node-id="R411EJEbUXJXm3hgz04AUI">缩放</span></div>
+      <div data-page-node-id="HnBSDbfmFTfuHMCcbpk2EB"><kbd data-page-node-id="m1GiyF1KEbf8REHGcLlSZT">⌘/Ctrl + Z</kbd><span data-page-node-id="9yOIn2vJhfFF1C2UtOOA9t">撤销</span></div>
+      <div data-page-node-id="Lx6jJJbNCZtaBygIcjpEKJ"><kbd data-page-node-id="ejk6HLyxT1bxnz6e9wPeMU">⌘/Ctrl + ⇧ + Z</kbd><span data-page-node-id="4AvVY9b66BdG0QBSKcq0eT">重做</span></div>
+      <div data-page-node-id="HS9wyDAUDJJ89Mbr1CByCv"><kbd data-page-node-id="dtzPk0KofK0m6C2TZjQD0K">⌘/Ctrl + 0</kbd><span data-page-node-id="bfboRFcNYZiAqm2GUhnriI">适应画布</span></div>
+      <div data-page-node-id="KWx2cEWAQ3r7MT3sKOOxWr"><kbd data-page-node-id="V9mhWgJCpXb4hiunf3wEFQ">⌘/Ctrl + B</kbd><span data-page-node-id="qo4FCFrwbga6fMNIZ4ea0J">大纲面板</span></div>
+      <div data-page-node-id="kKlPgFinxx3zTPC0B2HBd8"><kbd data-page-node-id="udWNdJEqB3loVjTckP4sYx">P</kbd><span data-page-node-id="iD3zWgMXZ8tfjFuPu9UasI">演示模式</span></div>
+      <div data-page-node-id="Q2iZBKZSQe76sUrAAe1DKn"><kbd data-page-node-id="QuBHPHRZX6dTWXJxd4lBoZ">拖动节点</kbd><span data-page-node-id="8JusHqHf60HB5b6AAhG9Kj">改层级 / 排序</span></div>
+      <div data-page-node-id="DrltdYhlHcOqwyoOhXDz5i"><kbd data-page-node-id="0J8iLE6TWn6DqC0rUkhJkm">⌘/Ctrl + N</kbd><span data-page-node-id="x0tb1vNGZS9gAyC1zRhm6a">新建导图</span></div>
+      <div data-page-node-id="OHBNXLtzGsdmlZmxQsgRfb"><kbd data-page-node-id="xfTAmVYzxBywkGTGWvdvu3">M</kbd><span data-page-node-id="EmeJIICe0p40xq0A8KNhS9">缩略图</span></div>
+      <div data-page-node-id="m9VEAVOQ80hiiWmzFQSn6I"><kbd data-page-node-id="b1iUqNiYGVW4noTd0D5RUV">拖入文件</kbd><span data-page-node-id="wujGwEjqHyWfM6n9IPn1FE">导入 .xmind</span></div>
+    </div>
+    <p class="help-note" data-page-node-id="eddwPBJRanxP77iLJpezmm">所有改动自动保存在本机浏览器中。</p>
+  </div>
+</div>
+
+<input type="file" id="fileInput" accept=".zmind,.xmind,.json" hidden data-page-node-id="WLPSomW7dJEXNFB2p0Rl26">
+
+<!-- 自定义提示气泡 -->
+<div id="tip" class="tip" role="tooltip" aria-hidden="true" data-page-node-id="wT0ktvpZTnd2r1sY6WD7Ff"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
